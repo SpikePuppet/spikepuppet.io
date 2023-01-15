@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the code for my own private blog. I'll have more updates on what I want to do with this soon.
 
-Things you may want to cover:
+The main driver is that I want to own my own words. I genuinely believe that the next decade of computing is about to bring wild, sweeping changes. As such I don't want to be beholden to one platform. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Watch this space!

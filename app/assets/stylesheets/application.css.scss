@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+@import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Roboto:wght@100;500&display=swap');
+
+.sitebanner {
+    display: "flex";
+    flex-direction: "row";
+}
+
+.heading {
+    font-family: 'Archivo', sans-serif;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-list {
+    list-style-type: none;
+    
+    li {
+        display: inline;
+    }
+
+    a, a:visited, a:hover, a:active {
+        color: inherit;
+    }
+}

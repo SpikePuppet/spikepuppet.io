@@ -1,32 +1,13 @@
 <%# This could be a reusable component %>
-<header>
-  <ul class="brand-list">
-    <li>
-      <h1 class="heading">Caffinated Circuits</h1>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/rhysjohns/"
-        ><i class="fa-brands fa-linkedin-in fa-xl"></i
-      ></a>
-    </li>
-    <li>
-      <a href="https://twitter.com/home"
-        ><i class="fa-brands fa-twitter fa-xl"></i
-      ></a>
-    </li>
-    <li>
-      <a href="https://github.com/"
-        ><i class="fa-brands fa-github fa-xl"></i
-      ></a>
-    </li>
-  </ul>
-</header>
+<div class="container">
+  
 
-<h2 class="heading">Thoughts on technology and occasionally other topics</h2>
+  <h2 class="heading">Thoughts on technology and occasionally other topics</h2>
 
-<% @articles.each do |article| %>
-<article>
-  <h3 class="heading"><%= article.title %></h3>
-  <p class="body"><%= article.description %></p>
-</article>
-<% end %>
+  <% @articles.each do |article| %>
+  <article>
+    <h3 class="heading"><%= article.title %></h3>
+    <p class="body"><%= article.description %></p>
+  </article>
+  <% end %>
+</div>

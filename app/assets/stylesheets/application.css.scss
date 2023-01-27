@@ -17,9 +17,9 @@
 @import "font-awesome";
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Roboto:wght@100;500&display=swap');
 
-.sitebanner {
-    display: "flex";
-    flex-direction: "row";
+header {
+    display: inline;
+    border: "solid 2px";
 }
 
 .heading {
@@ -30,9 +30,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+// This will get expanded out into .brand-list h1, .brand-list li etc etc
 .brand-list {
+    border: "solid 2px";
     list-style-type: none;
+    vertical-align: middle;
     
+    h1 {
+        display: inline;
+    }
+
     li {
         display: inline;
     }
